@@ -7,8 +7,9 @@ const Statistic = (params) => {
                       <h3><Stats text="neutral" value={params.Neutral} /></h3>
                       <h3><Stats text="bad" value={params.Bad} /></h3>
                       <h4><Stats value={params.TOTAL} text="total"/></h4>
+                      <h4><Stats value={params.POSITIVE+'%'} text="positive"/></h4>  
                       <h4><Stats value={params.AVERAGE} text="Average"/></h4>
-                      <h4><Stats value={params.POSITIVE+'%'} text="positive"/></h4>   
+                       
    
       </div>
   )
