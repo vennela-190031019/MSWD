@@ -19,8 +19,7 @@ const App = () => {
     setVotes(vote)
   }
   const maximumVotes = () => {
-    let maximum = 0
-    let indexMaximum = 0
+    let maximum = 0,indexMaximum = 0
     votes.forEach((param, value) => {
       if (param > maximum) {
         maximum = param
